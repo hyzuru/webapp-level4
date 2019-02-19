@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+    <h1 class="wf-nicomoji">♪おと♪<span>タイピング</span>アプリ！</h1>
+    <p>このアプリでは、下のエリアでタイピングをしながら、押された各キーが音がします。<br>タイピングしながら音を作りましょう。音を<strong>ON</strong>にしてください。</p>
+
+    <div id="editor">
+      <textarea :value="input" @input="update"></textarea>
+         
+    </div>
+    <div class="audio">
+        <audio id="A" src="sounds/A.wav" preload="auto"></audio>
+        <audio id="B" src="sounds/B.wav" preload="auto"></audio>
+        <audio id="C" src="sounds/C.wav" preload="auto"></audio>
+        <audio id="D" src="sounds/D.wav" preload="auto"></audio>
+        <audio id="E" src="sounds/E.wav" preload="auto"></audio>
+        <audio id="F" src="sounds/F.wav" preload="auto"></audio>
+        <audio id="G" src="sounds/G.wav" preload="auto"></audio>
+        <audio id="H" src="sounds/H.wav" preload="auto"></audio>
+        <audio id="I" src="sounds/I.wav" preload="auto"></audio>
+        <audio id="J" src="sounds/J.wav" preload="auto"></audio>
+        <audio id="K" src="sounds/K.wav" preload="auto"></audio>
+        <audio id="L" src="sounds/L.wav" preload="auto"></audio>
+        <audio id="M" src="sounds/M.wav" preload="auto"></audio>
+        <audio id="N" src="sounds/N.wav" preload="auto"></audio>
+        <audio id="O" src="sounds/O.wav" preload="auto"></audio>
+        <audio id="P" src="sounds/P.wav" preload="auto"></audio>
+        <audio id="Q" src="sounds/Q.wav" preload="auto"></audio>
+        <audio id="R" src="sounds/R.wav" preload="auto"></audio>
+        <audio id="S" src="sounds/S.wav" preload="auto"></audio>
+        <audio id="T" src="sounds/T.wav" preload="auto"></audio>
+        <audio id="U" src="sounds/U.wav" preload="auto"></audio>
+        <audio id="V" src="sounds/V.wav" preload="auto"></audio>
+        <audio id="W" src="sounds/W.wav" preload="auto"></audio>
+        <audio id="X" src="sounds/X.wav" preload="auto"></audio>
+        <audio id="Y" src="sounds/Y.wav" preload="auto"></audio>
+        <audio id="Z" src="sounds/Z.wav" preload="auto"></audio>
+        <audio id="0" src="sounds/0.wav" preload="auto"></audio>
+        <audio id="1" src="sounds/1.wav" preload="auto"></audio>
+        <audio id="2" src="sounds/2.wav" preload="auto"></audio>
+        <audio id="3" src="sounds/3.wav" preload="auto"></audio>
+        <audio id="4" src="sounds/4.wav" preload="auto"></audio>
+        <audio id="5" src="sounds/5.wav" preload="auto"></audio>
+        <audio id="6" src="sounds/6.wav" preload="auto"></audio>
+        <audio id="7" src="sounds/7.wav" preload="auto"></audio>
+        <audio id="8" src="sounds/8.wav" preload="auto"></audio>
+        <audio id="9" src="sounds/9.wav" preload="auto"></audio>
+      </div>
+   
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+      require('./functions.js')
+    </script>
+  </body>
+</html>

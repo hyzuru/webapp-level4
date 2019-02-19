@@ -1,0 +1,24 @@
+{
+  "name": "my-typing-app",
+  "version": "1.0.0",
+  "description": "play a sound for each keyboard key that you press",
+  "main": "mainJS.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Jackie Yeung",
+  "devDependencies": {
+    "electron": "^4.0.4"
+  },
+  "dependencies": {
+    "electron-packager": "^13.0.1"
+  }
+}
