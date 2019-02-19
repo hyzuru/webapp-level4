@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: my-typing-app-setup-1.0.0.exe
+    sha512: GRA6O2e7VGT3Iwb9WWLffiZjzA/pHJBOqyiylEXjwTtNSclOmkludO5fvpT+23BTDPuKt37h86THSx80YvNAhA==
+    size: 54847283
+path: my-typing-app-setup-1.0.0.exe
+sha512: GRA6O2e7VGT3Iwb9WWLffiZjzA/pHJBOqyiylEXjwTtNSclOmkludO5fvpT+23BTDPuKt37h86THSx80YvNAhA==
+releaseDate: '2019-02-19T11:54:21.502Z'
